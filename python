@@ -1,0 +1,125 @@
+snippet v
+	${1} = ${0}
+
+snippet im
+	from ${1} import ${0}
+
+snippet df
+	def ${1}(${2}):
+		${0}
+
+snippet rt
+	return 
+
+snippet pr
+	print(${0})
+
+snippet ps
+	print('${0}')
+
+snippet pl
+	print('${0} \n')
+
+snippet inp
+	input(${0})
+
+snippet inps
+	input('${0}')
+
+snippet t
+	True
+
+snippet f
+	False
+
+snippet if
+	if {$1}:
+		${0}
+
+snippet ife
+	if ${1} == ${2}:
+		${0}
+
+snippet ifne
+	if ${1} != ${2}:
+		${0}
+
+snippet ifb
+	if ${1} > ${2}:
+		${0}
+
+snippet ifbe
+	if ${1} >= ${2}:
+		${0}
+
+snippet ifs
+	if ${1} < ${2}:
+		${0}
+
+snippet ifse
+	if ${1} <= ${2}:
+		${0}
+
+snippet elif
+	elif ${1}:
+		${0}
+
+snippet elife
+	elif ${1} == ${2}:
+		${0}
+
+snippet elifne
+	elif ${1} != ${2}:
+		${0}
+
+snippet elifb
+	elif ${1} > ${2}:
+		${0}
+
+snippet elifbe
+	elif ${1} >= ${2}:
+		${0}
+
+snippet elifs
+	elif ${1} < ${2}:
+		${0}
+
+snippet elifse
+	elif ${1} <= ${2}:
+		${0}
+
+snippet el
+	else:
+		${0}
+
+snippet for
+	for ${1}:
+		${0}
+
+snippet wh
+	while ${1}:
+		${0}
+
+snippet whe
+	while ${1} == ${2}:
+		${0}
+
+snippet whne
+	while ${1} != ${2}:
+		${0}
+
+snippet whb
+	while ${1} > ${2}:
+		${0}
+
+snippet whbe
+	while ${1} >= ${2}:
+		${0}
+
+snippet whs
+	while ${1} < ${2}:
+		${0}
+
+snippet whse
+	while ${1} <= ${2}:
+		${0}
