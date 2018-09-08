@@ -68,9 +68,6 @@ snippet bt
 
 snippet pa
 	package ${1:main}
-
-snippet ifmt
-	import "fmt"
 	
 snippet fn
 	func ${1}(${2}) {
